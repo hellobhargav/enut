@@ -1,0 +1,138 @@
+body{
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #e03e25;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: #e03e25 2px solid;
+}
+.container:hover .text-primary{
+   background-color: #e03e25;
+   color: white;
+}
+.container:hover{
+    background-color: #e03e25;
+    color: white;
+ }
+ .mt-5{
+    margin-top: 100px;
+ }
+ .ui , .ux , .testing{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    padding: 10px;
+   
+}
+.ui i, .ux i , .testing i{
+    font-size: 80px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-light{
+    background-color: white;
+}
+.text-end{
+    text-align: right;  
+}
+.fixed-top{
+    position: fixed;
+    z-index: 1;
+}
+.w-100{
+    width: 100%;
+}
+.float-start{
+    float: left;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.w-50{
+    width: 50%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-25{
+    width: 25%;
+}
+.h-100vh{
+    height: 100vh;
+}
+.bg-primary{
+    background-color: #11406b;
+    color: white;
+}
+.bg-imp{
+    background-color: #e03e25;
+    color: white;
+}
+.text-primary{
+    color: #11406b;
+}
+.text-imp{
+    color: #e03e25;
+}
+.text-center{
+    text-align: center;
+}
+.p-5{
+    padding: 10px;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+}  
+.btn-lg{
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+.b-none{
+    border: none;
+}
+.btn-primary{
+    background-color: white;
+    color: #11406b;
+} 
+ 
+.btn-outline-primary{
+    background-color: white;
+    color: #11406b;
+    border: #11406b 2px solid;
+} 
+ 
+.btn-outline-primary:hover{
+    background-color: #11406b;
+    color: white;
+} 
+.btn-imp{
+    background-color: white;
+    color: #e03e25;
+    border: #e03e25 2px solid;
+}
+.display-1{
+    font-size: 2em;
+}
+.btn-imp:hover{
+    background-color: #e03e25;
+    color: white;
+    
+}
